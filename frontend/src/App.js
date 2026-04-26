@@ -1,11 +1,18 @@
 import React from 'react';
+import './App.css'; // Importando o estilo que criamos
 
 function App() {
   return (
-    <div style={{ textAlign: 'center', fontFamily: 'Arial' }}>
+    <div className="pokedex-container">
       <h1>Pokédex Cloud-Native</h1>
-      <p>Building the future of Pokémon search with React & Python.</p>
-      {/* Futuro: Componente de Busca e Lista de Pokémons */}
+      <p>Project International 2026 | Status: Online</p>
+      
+      <div className="pokedex-screen">
+        <div className="pokedex-text">
+          <h2>SYSTEM INITIALIZED</h2>
+          <p>Ready to search Pokémon...</p>
+        </div>
+      </div>
     </div>
   );
 }
